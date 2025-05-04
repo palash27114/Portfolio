@@ -7,10 +7,12 @@ import Hero from './sections/Hero'
 import Showcase from './sections/Showcase'
 import Skill from './sections/Skill'
 
-
 const App = () => {
     return (
         <>
+      
+      {/* Your content like <Hero />, <About />, etc */}
+  
             <NavBar/>
            <Hero/>
            <Showcase/>
@@ -19,6 +21,7 @@ const App = () => {
             <ExperienceSection/>
             <Skill/>
             <Footer/>
+            
         </>
     )
 }
